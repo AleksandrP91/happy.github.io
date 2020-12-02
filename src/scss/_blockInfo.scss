@@ -1,0 +1,111 @@
+.block-info {
+  margin: 10px 0 0 40px;
+  width: 280px;
+  height: 80px;
+  .promoters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    .promoters__title {
+      width: 120px;
+      height: 30px;
+      h2 {
+        color: #746672;
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+    .promoters__people {
+      width: 50px;
+      height: 18px;
+      .percent {
+        color: #746672;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      .people-logo {
+        margin-top: 6px;
+        display: flex;
+        justify-content: flex-end;
+        .people {
+          padding-right: 6px;
+          color: #9D9D9C;
+          font-size: 14px;
+          font-weight: 600;
+        }
+        img {
+          width: 16px;
+          height: 16px;
+        }
+      }
+    }
+    .promoters__block {
+      position: relative;
+      display: flex;
+      margin-left: 10px;
+      width: 140px;
+      height: 40px;
+      border: 1px solid #F1F1F1;
+      background-color: #F9F9F9;
+      border-radius: 6px;
+      -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+      -o-border-radius: 6px;
+      .cube-green {
+        width: 30px;
+        height: 30px;
+        background-color: #71A752;
+        border-top-left-radius: 5px;
+        .line-green {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 28px;
+          height: 8px;
+          background-color: #B5D0A4;
+          border-bottom-left-radius: 5px;
+        }
+      }
+      .cube-yellow {
+        width: 30px;
+        height: 30px;
+        background-color: #FAD23F;
+        border-top-left-radius: 5px;
+        .line-yellow {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 26px;
+          height: 8px;
+          background-color: #FAE696;
+          border-bottom-left-radius: 5px;
+        }
+      }
+      .cube-red {
+        width: 24px;
+        height: 30px;
+        background-color: #EC5244;
+        border-top-left-radius: 5px;
+        .line-red {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 32px;
+          height: 8px;
+          background-color: #F3A59F;
+          border-bottom-left-radius: 5px;
+        }
+      }
+      .text {
+        margin-left: 18px;
+        line-height: 40px;
+        p {
+          font-size: 14px;
+          font-weight: 400;
+          color: #746672;
+        }
+      }
+    }
+  }
+}

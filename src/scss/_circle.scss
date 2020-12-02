@@ -1,0 +1,91 @@
+.images {
+  position: absolute;
+  top: -30px;
+  left: 120px;
+}
+.circle__text {
+  position: absolute;
+  top: 40px;
+  left: 65px;
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .title__price {
+      display: flex;
+      // align-items: flex-end;
+      p {
+        color: #555555;
+        font-size: 48px;
+        font-weight: 600;
+      }
+    }
+    .title__percent {
+      p {
+        color: #555555;
+        font-size: 18px;
+        font-weight: 400px;
+      }
+    }
+  }
+  .title__loyalty {
+    p {
+      text-align: center;
+      color: #555555;
+      font-size: 20px;
+      font-weight: 600;
+      font-family: 'Gotham Pro';
+
+    }
+  }
+  .subtitle__loyalty {
+    p {
+      text-align: center;
+      color: #fad23f;
+      font-size: 18px;
+      font-weight: 600;
+      font-family: 'Gotham Pro';
+
+    }
+  }
+  .title__text {
+    width: 140px;
+    p {
+      text-align: center;
+      color: #cccccc;
+      font-size: 12px;
+      font-weight: 400;
+      font-family: 'Gotham Pro';
+
+    }
+  }
+  .arrow {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    .triangle {
+      border-radius: 10px;
+      position: relative;
+    }
+    .triangle::after {
+      content: '';
+      position: absolute;
+      left: -45px;
+      bottom: 5px;
+      border: 10px solid transparent;
+      border-top: 10px solid #71a752;
+      transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+    }
+    p {
+      padding-left: 20px;
+      color: #71A752;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: 'Gotham Pro';
+    }
+  }
+}
